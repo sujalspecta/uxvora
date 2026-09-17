@@ -1,11 +1,11 @@
- 
- 
-import Slider from 'react-slick';
+import * as ReactSlickModule from 'react-slick';
 import { LazyLoadTypes } from 'react-slick'; 
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
- 
+
+// 💡 This cleanly unwraps the component function out of Vite's module proxy layer
+const Slider = (ReactSlickModule.default as any)?.default || ReactSlickModule.default || ReactSlickModule;
 
 
 // Custom Previous Arrow

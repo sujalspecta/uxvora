@@ -1,1 +1,1 @@
-{"root":["./vite.config.ts"],"version":"5.8.3"}
+{"version":"7.0.2","root":["./vite.config.ts"],"packageJsons":["./node_modules/@types/postcss-import/package.json","./node_modules/postcss-import/package.json","./node_modules/postcss/package.json","./node_modules/source-map-js/package.json","./package.json"],"missingPackageJsons":["./node_modules/postcss/lib/package.json"]}
