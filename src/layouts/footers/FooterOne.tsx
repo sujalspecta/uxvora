@@ -22,10 +22,10 @@ const FooterOne = () => {
                   <h5>Company</h5>
                   <ul>
                     <li>
-                      <Link to="/about">About Us</Link>
+                      <Link to="/about-us">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/sercice">Our Services</Link>
+                      <Link to="/service">Our Services</Link>
                     </li>
                     <li>
                       <Link to="/portfolio">Portfolio</Link>

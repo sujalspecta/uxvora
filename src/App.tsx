@@ -16,10 +16,10 @@ import SingleBlog from "./components/single-blog";
 
 const router = createBrowserRouter([
 	{
-		// 1. Define a parent route with your layout
+		
 		element: (
 			<Wrapper>
-				<Outlet /> {/* This is where the matching child pages will render */}
+				<Outlet /> 
 			</Wrapper>
 		),
 		children: [
@@ -38,12 +38,10 @@ const router = createBrowserRouter([
 			{ path: "*", element: <NotFound /> },
 		]
 	}
-	
-]
-);
+]);
 
 function App() { 
-	// 2. Return ONLY the RouterProvider at the root level
+	
 	return <RouterProvider router={router} />;
 }
 
